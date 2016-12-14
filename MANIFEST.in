@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include traceability_themes *.css
+recursive-include traceability_themes *.csv
+recursive-include traceability_themes *.html
+recursive-include traceability_themes *.ico
+recursive-include traceability_themes *.js
+recursive-include traceability_themes *.json
+recursive-include traceability_themes *.md
+recursive-include traceability_themes *.png
+recursive-include traceability_themes *.py
+recursive-include traceability_themes *.svg
+recursive-include traceability_themes *.txt
+recursive-exclude traceability_themes *.pyc

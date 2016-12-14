@@ -1,0 +1,23 @@
+{
+	"css/desk.min.css": [
+		"public/js/lib/jquery/bootstrap_theme/jquery-ui.selected.css",
+		"public/css/bootstrap.css",
+		"public/css/font-awesome.css",
+		"public/css/octicons/octicons.css",
+		"public/css/cal-heatmap.css",
+		"public/css/c3.min.css",
+		"public/css/desk.css",
+		"public/css/indicator.css",
+		"public/css/avatar.css",
+		"public/css/navbar.css",
+		"public/css/sidebar.css",
+		"public/css/page.css",
+		"public/css/tree.css",
+		"public/css/desktop.css",
+		"public/css/form.css",
+		"public/css/mobile.css"
+	],
+	"js/traceability_themes.min.js": [
+		"public/js/traceability_themes.js"
+	]
+}
