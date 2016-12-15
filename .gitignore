@@ -3,6 +3,8 @@
 *.egg-info
 *.swp
 tags
-traceability_themes/docs/current
-traceability_themes/public/css
-traceability_themes/public/js/lib
+/traceability_themes/public/css/*
+!/traceability_themes/public/css
+!/traceability_themes/public/.gitkeep
+/traceability_themes/docs/current
+/traceability_themes/public/js/lib
