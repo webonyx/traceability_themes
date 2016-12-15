@@ -58,6 +58,20 @@ a,
 	.transition(background-color .2s);
 }
 
+.btn-primary {
+  background-color: @brand-primary;
+  border-color: @brand-primary;
+	&:hover, &:active {
+		background-color: #455A64;
+		border-color: #455A64;
+	}
+}
+
+.open > .dropdown-toggle.btn-primary {
+	background-color: #455A64;
+	border-color: #455A64;
+}
+
 a.disabled, a.disabled:hover {
 	color: #888;
 	cursor: default;

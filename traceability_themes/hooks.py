@@ -22,3 +22,12 @@ app_include_js = "/assets/js/traceability_themes.min.js"
 # ------------
 
 before_install = "traceability_themes.install.before_install"
+
+# Override Page Controller
+# ------------
+# extend_website_page_controller_context = {
+# 	"frappe.www.desk" : [
+# 		"traceability_themes.www.desk"
+# 	]
+# }
+

@@ -1,4 +1,4 @@
-@brand-primary:       #5E64FF;
+@brand-primary:       #37474F;
 @erpnext-blue:        #7575ff;
 @border-color:        #d1d8dd;
 @light-border-color:  #EBEFF2;
@@ -8,7 +8,7 @@
 @btn-bg:              #F0F4F7;
 @panel-bg:            #F7FAFC;
 @grey-link-color:     #212a33;
-@navbar-bg:           #f5f7fa;
+
 @light-bg:            #fafbfc;
 @modal-backdrop-bg:	  #334143;
 @light-yellow:        #fffce7;
@@ -30,10 +30,12 @@
 
 @heart-color: @indicator-red;
 
-//@navbar-default-color:     @text-muted;
-@navbar-default-color:     #6C7680;
+@navbar-bg:               #455A64;
+@navbar-default-color:     darken(#FFFFFF, 10%);
+@navbar-default-hover-color:     #FFFFFF;
 @navbar-inverse-color:     #9D9D9D;
-@navbar-default-bg:        #f5f7fa;
+@navbar-default-bg:        #263238;
+@navbar-default-bg-hover:  #37474F;
 @navbar-default-border:    #EBEFF2;
 @breadcrumb-divider-color: #C0C9D2;
 
@@ -49,3 +51,14 @@
 @screen-xs:           767px;
 @screen-sm:           991px;
 @screen-md:			  1199px;
+
+@navbar-default-brand-color: @navbar-default-color;
+@navbar-default-brand-hover-color: @navbar-default-brand-color;
+@navbar-default-brand-hover-bg: @navbar-default-bg-hover;
+
+@navbar-default-link-color: @navbar-default-color;
+@navbar-default-link-hover-color: @navbar-default-hover-color;
+
+@navbar-default-link-hover-bg: @navbar-default-bg-hover;
+@navbar-default-link-active-color: @navbar-default-hover-color;
+@navbar-default-link-active-bg: @navbar-default-bg;
